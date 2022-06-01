@@ -1,1 +1,1 @@
-Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+Write a script that prints “Hello, World”, followed by a new line to the standard output.
