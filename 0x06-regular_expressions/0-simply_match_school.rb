@@ -1,2 +1,8 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/School/).join
+
+
+regex = /School/i
+arg = ARGV[0]
+arg.scan(regex) do |match|
+	puts match.to_s
+end
